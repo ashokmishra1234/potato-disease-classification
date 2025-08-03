@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Load model
-MODEL_PATH = r"C:\Users\91630\Downloads\potato-disease-classification-main\potato-disease-classification-main\saved_models\2.keras"
+MODEL_PATH = r"models/potatoes.keras"  # Update with your model path
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # Class names - update based on your model's training
