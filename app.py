@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # Load model
-MODEL_PATH = r"models/potatoes.keras"  # Update with your model path
+MODEL_PATH = r"./potatoes.keras"  # Update with your model path
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # Class names - update based on your model's training
@@ -37,3 +37,4 @@ if uploaded_file is not None:
 
     st.success(f"Prediction: **{predicted_class}**")
     st.info(f"Confidence: **{confidence*100:.2f}%**")
+
