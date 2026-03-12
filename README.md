@@ -101,22 +101,6 @@ NumPy & Matplotlib
 
 Streamlit
 
-Pillow (PIL)
-
-📈 Future Improvements
-
-🧪 Add more disease categories
-
-☁️ Deploy on cloud (Streamlit Cloud / Hugging Face Spaces)
-
-🔄 Integrate REST API for mobile applications
-
-👨‍💻 Author
-
 Ashok Mishra
 📘 Computer Science and Engineering, NIT Silchar
 🌐 GitHub Profile
-
-📜 License
-
-This project is licensed under the MIT License – feel free to use and modify it for educational and research purposes.
